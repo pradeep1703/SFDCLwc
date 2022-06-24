@@ -1,0 +1,25 @@
+<template>
+    <nav class="navbar" >
+        <div class="brand-title" >
+           <b>{productname}</b>
+        </div>   
+        <div class={navbarclass}>
+            <ul>
+                <li><div class="setUp" onclick={handleClick}>SetUp</div></li>
+                <li><div  class="whatNew" onclick={handleClick}>What's New</div></li>
+                <li><div class="accessories" onclick={handleClick}>Accessories</div></li>
+                <li><div class="help" onclick={handleClick}>Help</div></li>
+            </ul>
+           
+        </div>
+        <div class="toggle-button" onclick={toggleMenu}>
+            <img src={navMenuIcon}/>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>      
+        </div>
+      
+
+    </nav>
+
+</template>

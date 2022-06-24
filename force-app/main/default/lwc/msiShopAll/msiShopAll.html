@@ -1,0 +1,29 @@
+<!--
+  @description       : msiPcr Shop ALL
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 05-23-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+
+  <div if:true={displayconnectioncondition} class={scrollOver1}>
+    <div style={backgroundStyle} data-value="helloworld" id="codecheck">
+    
+      <div class="backgroundStyle slds-grid slds-align_absolute-center imagevar imgt Imgs imgm">
+        <lightning-layout multiple-rows>
+          <lightning-layout-item >
+            <p class=" title titlem">{title}</p>
+          </lightning-layout-item>&nbsp;&nbsp;
+          <lightning-layout-item  >
+            <button data-value={buttonurl} onclick={navigateurl} class="button buttonm center">
+              {buttonname}
+            </button>
+        
+          </lightning-layout-item>
+        </lightning-layout>
+      </div>
+    </div>
+  </div>
+
+</template>

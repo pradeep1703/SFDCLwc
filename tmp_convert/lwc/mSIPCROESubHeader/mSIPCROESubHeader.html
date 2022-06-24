@@ -1,0 +1,40 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 05-16-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+<div if:true={rendertemplate}>
+    <lightning-layout multiple-rows="true">
+<lightning-layout-item size="1">
+    <img src={url} width="45%" height="45%"/>
+</lightning-layout-item>
+<lightning-layout-item size="11">
+    <h1><b>{title} </b></h1>
+</lightning-layout-item>
+<lightning-layout-item size="1">
+    
+</lightning-layout-item>
+<lightning-layout-item size="11">
+    <p  style="font-size:13Px;"> {detail}</p>
+</lightning-layout-item>
+      
+    </lightning-layout>
+    <!--<div class="slds-grid slds-grid_vertical">
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_8-of-12">
+            <span class="slds-avatar slds-avatar_circle slds-avatar_small">
+               
+                     <img src={url}/>
+              </span>  <p style="font-size:10Px;"> {title} </p>
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_8-of-12">
+          <span>  <p class="slds-p-left_large"> {detail}</p></span>
+        </div>
+       
+      </div>-->
+       
+
+    </div>
+</template>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Check Codes 1</masterLabel>
+    <description>Check Codes</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" type="String"/>
+            <property label="Subtext" name="subtext" type="String"/>
+            <property label="Button Name" name="buttonname" type="String"/>
+            <property type="String" label="External urls"  name="buttonurl" description="User will be redirected to this resource"/>
+            <property label="opacity"  name="opacityvalue" type="Integer"/>
+            <property  type="ContentReference" name="contentId" label="Background Image" filter="cms_image" description="The accessory product image"/>
+            <property name="imagehidden" type="Boolean" description=" Image hidden"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

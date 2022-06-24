@@ -1,0 +1,40 @@
+@media screen and (max-width:375px) {
+  .headerm {
+
+    font-family: Univers LT Std;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+
+  }
+}
+
+@media screen and (min-width:768px) {
+  .headert {
+    font-family: Univers LT Std;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.005em;
+    text-align: center;
+
+  }
+
+}
+
+@media screen and (min-width:769px) {
+
+  .headerw {
+    font-family: Univers LT Std;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: -0.005em;
+    text-align: center;
+
+
+
+  }
+}

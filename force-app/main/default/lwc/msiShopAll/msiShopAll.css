@@ -1,0 +1,126 @@
+/* Css for Desktop */
+@media screen and (min-width: 768px) {
+
+    .Imgs {
+        height: 342.0538330078125px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .title {
+        color: white;
+        padding-left: 20px;
+        top: 80px;
+        font-family: Univers LT Std;
+        font-size: 32px;
+        font-weight: 400;
+        width: 500px;
+        line-height: 45px;
+        letter-spacing: -0.5px;
+        text-align: center;
+
+    }
+
+    .button {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1.292307734489441px;
+        text-align: center;
+        border: none;
+        height: 48px;
+        width: 141px;
+        left: 1032px;
+        top: 79px;
+        border-radius: 25px;
+
+
+
+    }
+}
+
+/* Css for mobile Devices*/
+@media screen and (max-width: 375px) {
+    .imgm {
+        height: 220px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .titlem {
+        font-family: Univers LT Std;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        color: white;
+    }
+
+    .buttonm {
+        height: 48px;
+        width: 141px;
+        border-radius: 25px;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1.292307734489441px;
+        text-align: center;
+        background: #FFFFFFF2;
+
+
+
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Css for tab Devices*/
+@media screen and (min-width: 376px) {
+    .imgt {
+        height: 202px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .backgroundStyle::before {
+        background-position: center;
+    }
+
+    .titlet {
+        font-family: Univers LT Std;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: -0.5px;
+        text-align: center;
+
+    }
+
+    .buttont {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1.292307734489441px;
+        text-align: center;
+
+    }
+
+}

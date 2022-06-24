@@ -1,0 +1,72 @@
+@media screen and (max-width: 1680px) {
+.Imgs{
+        height: 342.0538330078125px;
+width: 1680px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+.title{
+    color: white;
+    padding-left:150px;
+    top: 80px;
+    font-family: Univers LT Std;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: -0.5px;
+    text-align: center;
+            
+}
+.button{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.292307734489441px;
+    text-align: center;
+    border: none;
+    height: 48px; 
+    width: 141px;
+    left: 1032px;
+    top: 79px;
+    border-radius: 25px;
+    
+
+
+}
+}
+@media screen and (max-width: 375px) {
+.titlem
+{
+    height: 74.71697998046875px;
+width: 345px;
+left: 15px;
+top: 3923.513671875px;
+border-radius: nullpx;
+font-family: Univers LT Std;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.5px;
+text-align: center;
+
+}
+.buttonm{
+    height: 48px;
+width: 141px;
+left: 117px;
+top: 4015px;
+border-radius: 25px;
+font-family: Arial;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 1.292307734489441px;
+text-align: center;
+
+
+
+}
+}

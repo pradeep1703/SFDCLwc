@@ -1,0 +1,14 @@
+<template>
+    <div class="boarder">
+        Testing
+       
+            Testing
+                <template for:each={opportunities} for:item="opportunity">
+                  
+                  <p   key={opportunity.id}> {opportunity.Amount}</p>
+                    <li key={opportunity.id}>{opportunity.Account.Industry}</li>
+                </template>
+           
+     
+    </div>
+</template>

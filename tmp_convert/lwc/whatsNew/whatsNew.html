@@ -1,0 +1,33 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 05-13-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="slds-box slds-theme_shade">
+        <div if:true={titlename}>
+            <lightning-layout>
+                <lightning-layout-item padding="around-small" size="12" >
+                    <p style="font-size:20Px; text-align:center;vertical-align:middle;">{title}</p>
+                </lightning-layout-item>
+    </lightning-layout>
+          </div>
+          <div  class="slds-m-left_xx-large ">
+               <lightning-layout multiple-rows="true">
+                   <lightning-layout-item size="12" small-device-size="4" padding="around-small"  class="slds-align_absolute-center">
+                     <p> Competaible Applications</p>
+                   </lightning-layout-item>
+                   <lightning-layout-item size="12" small-device-size="4"  padding="around-small" class="slds-align_absolute-center">
+                    <p> Software Versions</p>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" small-device-size="4"  padding="around-small" class="slds-align_absolute-center">
+                       <p>integrations</p>
+                </lightning-layout-item>
+               </lightning-layout>
+            </div>
+
+
+        </div>
+</template>

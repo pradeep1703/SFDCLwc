@@ -1,0 +1,23 @@
+<template>
+  <div if:true={displayconnectioncondition}>
+    <div style={backgroundStyle}>
+      <div class="backgroundStyle slds-grid slds-grid_vertical slds-align_absolute-center imagevar imgt Imgs imgm">
+
+        <div class="title titlem titlet">
+          <p>{title}</p>
+        </div>
+        <div>
+          <p class=" subtext subtextm subtextt">{subtext}</p>
+        </div>
+        &nbsp;&nbsp;
+        <div class="slds-col ">
+          <button data-value={buttonurl} onclick={navigateurl} class="button buttont buttonm center">
+            {buttonname}
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</template>

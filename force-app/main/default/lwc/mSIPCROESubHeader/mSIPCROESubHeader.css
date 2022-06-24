@@ -1,0 +1,35 @@
+@media screen and (max-width:375px) {
+    .headerm {
+        font-family: Arial;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #005EB8;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .headert {
+        font-family: Arial;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width:769px) {
+
+    .headerw {
+        font-family: Arial;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}

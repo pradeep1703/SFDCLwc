@@ -1,0 +1,25 @@
+<template>
+    <div class="navbar">
+        <div class="brand-title" >
+           <b>{productname}</b>
+        </div>   
+        <div class={navbarclass}>
+            <ul >
+             <template for:each={titleobject}  for:item="record">
+                    <li key={record.name}><div class={record.name} onclick={handleClick}>{record.title}</div></li>
+                </template>
+               <!--    <li><div class="setUp" onclick={handleClick}>{publishtitle}</div></li>
+                <li><div class="whatNew" onclick={handleClick}>{publishtitle}</div></li>
+                <li><div class="accessories" onclick={handleClick}>Accessories</div></li>
+                <li><div class="help" onclick={handleClick}>Help</div></li>-->
+            </ul>
+           
+        </div>
+        <div class="toggle-button" onclick={toggleMenu}>
+            <img src={navMenuIcon}/>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>      
+        </div>
+    </div>
+</template>

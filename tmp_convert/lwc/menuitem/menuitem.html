@@ -1,0 +1,19 @@
+<template>
+    <header>
+        <div style="position: relative; display:flex; align-items: center; justify-content: center; justify-content: center; flex-shrink: 0;
+        width: 90px;
+        margin-right: auto;" >
+
+<img src={llLogo}  />
+        </div>
+    </header>
+   R7 Get Started <lightning-button-menu alternative-text="Action"  onselect={handleMenuSelect} style=" color:red; padding-left:20% ">
+    <template for:each={items} for:item=action>
+        <lightning-menu-item     label={action.label} value={action.value} key={action.label}>
+        </lightning-menu-item>
+        </template>
+        <lightning-button label="Contact Us" > </lightning-button>
+
+</lightning-button-menu>
+
+</template>

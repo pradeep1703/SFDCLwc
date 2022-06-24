@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>msiLmsChannel</masterLabel>
+    <isExposed>true</isExposed>
+    <description>This is a sample Lightning Message Channel.</description>
+    <lightningMessageFields>
+        <fieldName>name</fieldName>
+        <description>This Name</description>   
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>position</fieldName>
+        <description>Position Value</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>register</fieldName>
+        <description>register Value</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>title</fieldName>
+        <description>title Value</description>
+    </lightningMessageFields>
+
+</LightningMessageChannel>

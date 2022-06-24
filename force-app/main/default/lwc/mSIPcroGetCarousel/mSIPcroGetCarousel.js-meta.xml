@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Get Started Page</masterLabel>
+    <description>Getstarted PageLeads</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property  type="ContentReference" name="contentId" label="Background Image" filter="cms_image" description="The accessory product image"/>
+            <property type="String" name="Carousel" label="Carousel" datasource="apex://ProductDynamicPicklist"/>
+            <property type="String" name="subtext" label="Subtext"/>
+            <property type="Integer"  name="opacityvalue"  label="Scale Opacity 0 to 100"  default="100"  description="Scale Opacity 0 to 100" />
+          <property name="backgroundfalse" type="Boolean" label="Hidden Background"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

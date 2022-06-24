@@ -1,0 +1,30 @@
+@media screen and (max-width: 1680px) {
+.shopimagew{
+    height: 400px;
+    width: 761px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    
+}
+}
+@media screen and (max-width:375px){
+.shopimagep{
+    height: 321px;
+    width: 344px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    
+}
+@media screen and (max-width:698px) {
+    .shopimaget{
+        height: 638px;
+width: 698px;
+left: 35px;
+top: 80px;
+border-radius: 0px;
+
+    }
+}
+}

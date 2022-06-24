@@ -1,0 +1,156 @@
+/* Css for Desktop */
+@media screen and (min-width: 768px) {
+
+    .Imgs {
+        height: 413px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .title {
+        color: white;
+        font-family: Univers LT Std;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        padding-top: 100px;
+
+    }
+
+    .subtext {
+        padding-top: 40px;
+        font-family: Arial;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;
+    }
+
+    .button {
+
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        border: none;
+        height: 48px;
+        width: 141px;
+        left: 1032px;
+        top: 79px;
+        border-radius: 25px;
+
+
+
+    }
+}
+
+/* Css for mobile Devices*/
+@media screen and (max-width: 375px) {
+    .imgm {
+        height: 322px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .titlem {
+        padding-top: 66px;
+        font-family: Univers LT Std;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        color: white;
+    }
+
+    .subtextm {
+        padding-top: 40px;
+        font-family: Arial;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;
+    }
+
+    .buttonm {
+
+        height: 48px;
+        width: 141px;
+        border-radius: 25px;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        background: #FFFFFFF2;
+
+
+
+    }
+
+
+}
+
+/* Css for tab Devices*/
+@media screen and (min-width: 376px) {
+    .imgt {
+        height: 362px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .backgroundStyle::before {
+        background-position: center;
+    }
+
+    .titlet {
+        padding-top: 91px;
+        font-family: Univers LT Std;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: -0.5px;
+        text-align: center;
+
+
+    }
+
+    .subtextt {
+        padding-top: 40px;
+        font-family: Arial;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+
+    .buttont {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1.2px;
+        text-align: center;
+
+    }
+
+}
